@@ -1,9 +1,9 @@
 import React from 'react';
-
+import '../styles/home.css'
 const Home: React.FC = () => {
   return (
-    <section>
-      <h2>Welcome to my website!</h2>
+    <section className="home-section">
+      <h1>Welcome to my Portfolio</h1>
       <p>This is the home section of my website.</p>
     </section>
   );

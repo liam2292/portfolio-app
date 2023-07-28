@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import MyWork from './components/MyWork';
+
 
 const App: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const App: React.FC = () => {
         <Home />
         <About />
         <Contact />
-        <MyWork />
+       
       </main>
       <footer>
         <p>&copy; 2023 My React Website. All rights reserved.</p>
